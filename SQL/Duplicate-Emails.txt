@@ -15,7 +15,5 @@ For example, your query should return the following for the above table:
 | a@b.com |
 +---------+
 
-
-
 # Write your MySQL query statement below
 select distinct Email from Person GROUP BY Email HAVING Count(Email) > 1;
